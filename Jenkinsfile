@@ -13,7 +13,7 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
+        stage('Unit Testing') {
             steps {
                 bat 'npm test'
             }
